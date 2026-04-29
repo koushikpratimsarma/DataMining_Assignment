@@ -1,33 +1,61 @@
 # 📊 Data Mining Assignments (Machine Learning)
 
-This repository contains three practical assignments implemented using Python and scikit-learn.
+This repository contains practical machine learning assignments implemented using Python and the scikit-learn library.
 
 ---
 
 ## 📌 1. Digit Recognition using Logistic Regression
 
-* Dataset: MNIST (from OpenML)
-* Algorithm: Logistic Regression
-* Description:
-  This program classifies handwritten digits (0–9) using Logistic Regression. The dataset is normalized and split into training and testing sets. The model is trained and evaluated using accuracy.
+* **Dataset:** MNIST (from OpenML)
+* **Algorithm:** Logistic Regression
+
+**Description:**
+This program classifies handwritten digits (0–9) using Logistic Regression. The dataset is normalized, split into training and testing sets, and evaluated using accuracy.
 
 ---
 
 ## 📌 2. Digit Recognition using Naive Bayes
 
-* Dataset: MNIST (from OpenML)
-* Algorithm: Gaussian Naive Bayes
-* Description:
-  This program uses a probabilistic approach to classify handwritten digits. It assumes features follow a Gaussian distribution and predicts digits based on probability.
+* **Dataset:** MNIST (from OpenML)
+* **Algorithm:** Gaussian Naive Bayes
+
+**Description:**
+This program uses a probabilistic approach to classify handwritten digits. It assumes that features follow a Gaussian (normal) distribution and predicts digits based on probability.
 
 ---
 
 ## 📌 3. Iris Classification using KNN
 
-* Dataset: Iris Dataset
-* Algorithm: K-Nearest Neighbors (KNN)
-* Description:
-  This program classifies iris flowers into Setosa, Versicolor, and Virginica using KNN. It uses flower measurements like sepal and petal dimensions.
+* **Dataset:** Iris Dataset
+* **Algorithm:** K-Nearest Neighbors (KNN)
+
+**Description:**
+This program classifies iris flowers into three categories: Setosa, Versicolor, and Virginica using KNN based on sepal and petal measurements.
+
+**What has been done:**
+
+* Loaded the Iris dataset from scikit-learn
+* Split the dataset into training and testing sets
+* Applied KNN algorithm for classification
+* Evaluated the model using accuracy score
+
+---
+
+## 📌 4. Cancer Data Classification
+
+* **Dataset:** Breast Cancer Dataset (from scikit-learn)
+* **Algorithm:** Logistic Regression / Classification Model
+
+**Description:**
+This program classifies tumors as malignant or benign using machine learning techniques based on various medical features.
+
+**What has been done:**
+
+* Loaded the breast cancer dataset
+* Preprocessed and normalized the data
+* Split the dataset into training and testing sets
+* Trained the model using classification algorithm
+* Evaluated performance using accuracy score
 
 ---
 
@@ -43,10 +71,16 @@ This repository contains three practical assignments implemented using Python an
 ## ▶️ How to Run
 
 1. Install required libraries:
-   pip install numpy matplotlib scikit-learn
 
-2. Run any program:
+   ```
+   pip install numpy matplotlib scikit-learn
+   ```
+
+2. Navigate to any assignment folder and run:
+
+   ```
    python main.py
+   ```
 
 ---
 
@@ -65,6 +99,19 @@ This repository contains three practical assignments implemented using Python an
 
 ---
 
+## 📁 Project Structure
+
+```
+DataMining_Assignment/
+│
+├── Digit-Recognition-Logistic/
+├── Digit-Recognition-NaiveBayes/
+├── Iris-KNN/
+└── cancer_data/
+```
+
+---
+
 ## 👨‍💻 Author
 
-* Koushik Pratim Sarma
+*Koushik Pratim Sarma
