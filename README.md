@@ -65,7 +65,7 @@ This program classifies tumors as malignant or benign using machine learning tec
 * NumPy
 * Matplotlib
 * scikit-learn
-
+* seaborn
 ---
 
 ## ▶️ How to Run
@@ -73,7 +73,7 @@ This program classifies tumors as malignant or benign using machine learning tec
 1. Install required libraries:
 
    ```
-   pip install numpy matplotlib scikit-learn
+   pip install numpy matplotlib scikit-learn seaborn
    ```
 
 2. Navigate to any assignment folder and run:
